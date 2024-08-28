@@ -7,7 +7,7 @@ class ProductEntity {
   final double rating;
   final String category;
   final double discountPercentage;
-  final String brand; // New brand property
+  final String brand;
 
   ProductEntity({
     required this.id,

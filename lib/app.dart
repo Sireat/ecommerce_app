@@ -5,6 +5,8 @@ import 'data/repositories/product_repository_impl.dart';
 import 'presentation/screens/product_list_screen.dart';
 
 class App extends StatelessWidget {
+  const App({super.key});
+
   @override
   Widget build(BuildContext context) {
     // Override the Http client to allow self-signed or untrusted certificates for development.
@@ -18,10 +20,10 @@ class App extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'E-Commerce App',
-        theme: ThemeData(
+        theme: ThemeData(// New brand property
           primarySwatch: Colors.blue,
         ),
-        home: ProductListScreen(),
+        home: const ProductListScreen(),
         debugShowCheckedModeBanner: false, // Disable the debug banner
       ),
     );

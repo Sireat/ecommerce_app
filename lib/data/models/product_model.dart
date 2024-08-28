@@ -1,6 +1,5 @@
 // lib/data/models/product_model.dart
 
-// Rename this class to ProductEntity if it’s used as such in your domain layer
 class ProductEntity {
   final String id;
   final String title;
