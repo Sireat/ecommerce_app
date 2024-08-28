@@ -1,3 +1,5 @@
+// ignore: avoid_relative_lib_imports
+import '../windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/lib/main.dart';
 // This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
@@ -8,7 +10,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:ecommerce_app/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
